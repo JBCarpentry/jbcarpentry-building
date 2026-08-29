@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JB Carpentry & Building | Tonbridge, Kent</title>
+<meta name="description" content="Professional carpentry and building services across Tonbridge and surrounding Kent. First fix, second fix, roofing, structural timber, extensions, new builds and garden carpentry.">
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#171514;background:#f7f2e8;line-height:1.6}img{max-width:100%;display:block}a{color:inherit;text-decoration:none}
+header{position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px solid #ddd5ca;padding:12px 20px}.header-inner{max-width:1180px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:20px}.logo-area{display:flex;align-items:center;gap:12px;font-weight:800;font-size:18px}.logo-mark{width:58px;height:58px;border-radius:10px;background:#f7eee4;display:grid;place-items:center;color:#a72f24;font-size:26px}.phone-button{background:#a72f24;color:white;padding:13px 25px;border-radius:8px;font-weight:800;white-space:nowrap}
+section{padding:75px 20px}.container{max-width:1180px;margin:auto}.eyebrow{color:#9d3026;font-weight:900;letter-spacing:2px;text-transform:uppercase;margin-bottom:8px}h1,h2,h3{line-height:1.15;margin-top:0}h1{font-size:clamp(42px,6vw,76px);margin-bottom:20px}h2{font-size:clamp(34px,5vw,52px)}h3{font-size:25px}.red{color:#a72f24}.lead{font-size:20px;color:#655f5a;max-width:850px}
+.hero{padding-top:45px;background:radial-gradient(circle at 85% 20%,#eee1d6,transparent 35%),#f7f2e8}.hero-grid{max-width:1180px;margin:auto;display:grid;grid-template-columns:1.05fr .95fr;gap:55px;align-items:center}.hero-logo{background:#fffaf2;padding:35px;border-radius:24px;box-shadow:0 15px 40px rgba(0,0,0,.08);text-align:center}.hero-logo .logo-large{font-size:34px;font-weight:900;color:#a72f24;line-height:1.05}.hero-logo .tools{font-size:80px;margin-bottom:15px}.buttons{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.btn{display:inline-block;padding:15px 22px;border-radius:9px;font-weight:800;border:2px solid #a72f24;cursor:pointer;font-size:16px}.btn-primary{background:#a72f24;color:white}.btn-outline{background:white;color:#8f2c23}
+.intro{background:white;border:1px solid #e0d8cf;border-radius:22px;padding:35px;margin-top:60px;box-shadow:0 12px 35px rgba(0,0,0,.05)}.tick-list{padding:0;margin:25px 0 0;list-style:none}.tick-list li{margin:10px 0;font-weight:700}.tick-list li::before{content:"✓";color:#a72f24;font-weight:900;margin-right:10px}
+.services{background:#f7f2e8}.service-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:35px}.service{background:white;border:1px solid #e0d8cf;border-radius:18px;padding:30px}.service p{color:#66605b;font-size:18px;margin-bottom:0}
+.gallery-section{background:white}.gallery-intro{max-width:850px}.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:40px}.gallery-item{background:#f7f2e8;border-radius:18px;overflow:hidden;border:1px solid #ddd5ca;cursor:pointer;transition:transform .2s,box-shadow .2s}.gallery-item:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(0,0,0,.12)}.gallery-image{width:100%;height:390px;object-fit:cover}.gallery-caption{padding:22px}.gallery-caption h3{margin-bottom:6px}.gallery-caption p{margin:0;color:#6c6660}
+.lightbox{display:none;position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:999;align-items:center;justify-content:center;padding:20px}.lightbox.active{display:flex}.lightbox img{max-width:95vw;max-height:90vh;object-fit:contain;border-radius:8px}.close-lightbox{position:absolute;top:18px;right:25px;color:white;font-size:42px;cursor:pointer}
+.why{background:#fff}.area-box{margin-top:35px;background:#171514;color:white;border-radius:22px;padding:40px}.area-box p{color:#ddd8d2;font-size:18px}
+.contact{background:#f7f2e8}.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:35px;align-items:start}.contact-card{background:#a72f24;color:white;padding:40px;border-radius:22px}.contact-card p{font-size:18px}.contact-card .btn{margin-top:10px;border-color:white;background:white;color:#a72f24;display:block;text-align:center}
+.form-card{background:white;padding:35px;border-radius:22px;border:1px solid #ddd5ca;box-shadow:0 10px 30px rgba(0,0,0,.05)}label{display:block;font-weight:800;margin-top:18px;margin-bottom:7px}input,select,textarea{width:100%;padding:15px;border:1px solid #d7d0c8;border-radius:9px;font:inherit;background:#fff}textarea{min-height:150px;resize:vertical}.form-submit{margin-top:22px;border:none;background:#a72f24;color:white;padding:16px 23px;border-radius:9px;font-size:16px;font-weight:800;cursor:pointer}
+footer{background:#111;color:white;padding:40px 20px}.footer-inner{max-width:1180px;margin:auto;display:flex;justify-content:space-between;gap:30px}.footer-muted{color:#aaa}
+@media(max-width:800px){header{padding:10px 15px}.header-inner{gap:10px}.logo-area{font-size:14px}.logo-mark{width:50px;height:50px}.phone-button{padding:12px 15px;font-size:14px}section{padding:55px 20px}.hero-grid{grid-template-columns:1fr;gap:30px}.hero{padding-top:30px}h1{font-size:45px}.lead{font-size:18px}.service-grid{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}.gallery-image{height:280px}.contact-grid{grid-template-columns:1fr}.footer-inner{flex-direction:column}}
+@media(max-width:480px){.phone-button{font-size:13px;padding:11px 12px}.logo-area{gap:8px}.hero-logo{padding:20px}.intro,.form-card,.contact-card,.area-box{padding:25px}.buttons{flex-direction:column}.btn{width:100%;text-align:center}}
+</style>
+</head>
+<body>
+
+<header><div class="header-inner">
+<a href="#" class="logo-area"><div class="logo-mark">🔨</div><span>JB Carpentry<br>& Building</span></a>
+<a class="phone-button" href="tel:07340861169">Call 07340 861169</a>
+</div></header>
+
+<section class="hero"><div class="hero-grid">
+<div>
+<div class="eyebrow">Tonbridge, Kent</div>
+<h1>Professional <span class="red">carpentry</span> & building.</h1>
+<p class="lead">JB Carpentry & Building provides reliable first fix, second fix, roofing and general carpentry for private customers, builders and developers across Tonbridge and surrounding Kent.</p>
+<div class="buttons">
+<a class="btn btn-primary" href="tel:07340861169">Call for a free quote</a>
+<a class="btn btn-outline" href="sms:07340861169">Text us</a>
+<a class="btn btn-outline" href="mailto:jbcarpentry@mail.co.uk">Email us</a>
+</div>
+</div>
+<div class="hero-logo"><div class="tools">🔨🪚</div><div class="logo-large">JB CARPENTRY<br>& BUILDING</div></div>
+</div>
+<div class="container"><div class="intro">
+<h2>Built properly. Finished neatly.</h2>
+<p class="lead">Experienced carpentry for new builds, renovations, extensions and structural timber work.</p>
+<ul class="tick-list"><li>First & second fix carpentry</li><li>Roof carpentry & cut and pitch</li><li>Truss roofs, joists & Posi-Joists</li><li>Extensions & new builds</li><li>Work from drawings</li><li>Structural timber work</li></ul>
+</div></div></section>
+
+<section class="services"><div class="container">
+<div class="eyebrow">What we do</div><h2>Carpentry services</h2>
+<p class="lead">From structural timber work through to finishing carpentry, JB Carpentry & Building can help with projects of all sizes.</p>
+<div class="service-grid">
+<div class="service"><h3>First Fix Carpentry</h3><p>Joists, studwork, structural timber, roofs and new-build framing.</p></div>
+<div class="service"><h3>Second Fix Carpentry</h3><p>Doors, frames, skirting, architraves and finishing work.</p></div>
+<div class="service"><h3>Roof Carpentry</h3><p>Roof structures, cut and pitch work and timber roof construction.</p></div>
+<div class="service"><h3>Truss Roofs</h3><p>Truss installation and roof carpentry for new builds and extensions.</p></div>
+<div class="service"><h3>Joists & Posi-Joists</h3><p>Floor structures and timber systems installed accurately from drawings.</p></div>
+<div class="service"><h3>Extensions & New Builds</h3><p>Carpentry packages for extensions, renovations and new-build projects.</p></div>
+<div class="service"><h3>Garden Carpentry</h3><p>Fencing, timber structures, garden projects and outdoor improvements.</p></div>
+<div class="service"><h3>Structural Timber</h3><p>Structural timber work carried out carefully and to project requirements.</p></div>
+</div></div></section>
+
+<section class="gallery-section" id="gallery"><div class="container">
+<div class="eyebrow">Recent work</div><h2>Project gallery</h2>
+<p class="lead gallery-intro">A selection of carpentry, roofing, structural timber and outdoor carpentry work completed by JB Carpentry & Building.</p>
+<div class="gallery">
+<div class="gallery-item" onclick="openLightbox('IMG_3080.jpeg')"><img class="gallery-image" src="IMG_3080.jpeg" alt="First fix structural carpentry"><div class="gallery-caption"><h3>First Fix Carpentry</h3><p>Structural timber framing and first fix carpentry.</p></div></div>
+<div class="gallery-item" onclick="openLightbox('IMG_3048.jpeg')"><img class="gallery-image" src="IMG_3048.jpeg" alt="Timber framing"><div class="gallery-caption"><h3>Structural Timber</h3><p>Timber framing and structural work.</p></div></div>
+<div class="gallery-item" onclick="openLightbox('IMG_3021.jpeg')"><img class="gallery-image" src="IMG_3021.jpeg" alt="Roof joists"><div class="gallery-caption"><h3>Roof Carpentry</h3><p>Roof structure and timber joist installation.</p></div></div>
+<div class="gallery-item" onclick="openLightbox('IMG_3018.jpeg')"><img class="gallery-image" src="IMG_3018.jpeg" alt="Timber roof construction"><div class="gallery-caption"><h3>Cut & Pitch Roofing</h3><p>Timber roof construction and roof carpentry.</p></div></div>
+<div class="gallery-item" onclick="openLightbox('IMG_2976.jpeg')"><img class="gallery-image" src="IMG_2976.jpeg" alt="Roof framing"><div class="gallery-caption"><h3>Roof Structure</h3><p>Roof framing and structural timber work.</p></div></div>
+<div class="gallery-item" onclick="openLightbox('IMG_2331.jpeg')"><img class="gallery-image" src="IMG_2331.jpeg" alt="Garden timber building"><div class="gallery-caption"><h3>Garden Carpentry</h3><p>Hand-built timber garden structure.</p></div></div>
+<div class="gallery-item" onclick="openLightbox('IMG_2266.jpeg')"><img class="gallery-image" src="IMG_2266.jpeg" alt="Timber fencing"><div class="gallery-caption"><h3>Fencing</h3><p>Timber fencing and garden carpentry.</p></div></div>
+<div class="gallery-item" onclick="openLightbox('IMG_2598.jpeg')"><img class="gallery-image" src="IMG_2598.jpeg" alt="Timber entrance canopy"><div class="gallery-caption"><h3>Timber Entrance</h3><p>Structural timber entrance canopy.</p></div></div>
+<div class="gallery-item" onclick="openLightbox('IMG_1657.jpeg')"><img class="gallery-image" src="IMG_1657.jpeg" alt="Interior timber framing"><div class="gallery-caption"><h3>Internal Framing</h3><p>Internal studwork and structural carpentry.</p></div></div>
+<div class="gallery-item" onclick="openLightbox('IMG_1228.jpeg')"><img class="gallery-image" src="IMG_1228.jpeg" alt="Structural carpentry"><div class="gallery-caption"><h3>Structural Carpentry</h3><p>Timber construction and structural carpentry.</p></div></div>
+</div></div></section>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()"><span class="close-lightbox">&times;</span><img id="lightboxImage" src="" alt="JB Carpentry project"></div>
+
+<section class="why"><div class="container">
+<div class="eyebrow">Why JB Carpentry & Building</div><h2>Reliable workmanship from start to finish.</h2>
+<p class="lead">Whether you are a homeowner looking for carpentry work or a builder needing reliable site support, get in touch to discuss your project.</p>
+<div class="area-box"><h2>Serving Tonbridge & surrounding Kent</h2><p>Based around Tonbridge and available for work in nearby areas including Tunbridge Wells, Sevenoaks, Edenbridge, Hildenborough, Penshurst, Leigh, Oxted, Crowborough and surrounding areas.</p><strong>Private customers • Builders • Developers</strong></div>
+</div></section>
+
+<section class="contact" id="contact"><div class="container">
+<div class="eyebrow">Request a quote</div><h2>Tell us about your project.</h2><p class="lead">Send an enquiry by email or contact JB Carpentry & Building directly.</p>
+<div class="contact-grid">
+<div class="contact-card"><h2>Need a carpenter?</h2><p>Get in touch today for a free quote or to discuss your next carpentry or building project.</p><a class="btn" href="tel:07340861169">Call 07340 861169</a><a class="btn" href="sms:07340861169">Text us</a><a class="btn" href="mailto:jbcarpentry@mail.co.uk">Email jbcarpentry@mail.co.uk</a></div>
+<div class="form-card"><h3>Request a quote</h3><form onsubmit="sendEmail(event)">
+<label for="name">Name *</label><input id="name" type="text" placeholder="Your name" required>
+<label for="phone">Phone *</label><input id="phone" type="tel" placeholder="Your phone number" required>
+<label for="email">Email</label><input id="email" type="email" placeholder="Your email address">
+<label for="service">What do you need?</label><select id="service"><option>First fix carpentry</option><option>Second fix carpentry</option><option>Roof carpentry</option><option>Cut & pitch roof</option><option>Truss roof</option><option>Joists / Posi-Joists</option><option>Extension</option><option>New build</option><option>Garden carpentry</option><option>Fencing</option><option>Structural timber</option><option>Other</option></select>
+<label for="details">Project details *</label><textarea id="details" placeholder="Tell us what work you need, the location and anything else that may help." required></textarea>
+<button class="form-submit" type="submit">Send enquiry by email</button></form></div>
+</div></div></section>
+
+<footer><div class="footer-inner"><div><strong>JB Carpentry & Building</strong><div class="footer-muted">Carpentry & building services • Tonbridge, Kent</div></div><div><a href="mailto:jbcarpentry@mail.co.uk">jbcarpentry@mail.co.uk</a> &nbsp;•&nbsp; <a href="tel:07340861169">07340 861169</a></div></div></footer>
+
+<script>
+function openLightbox(image){document.getElementById("lightboxImage").src=image;document.getElementById("lightbox").classList.add("active")}
+function closeLightbox(){document.getElementById("lightbox").classList.remove("active")}
+function sendEmail(event){
+event.preventDefault();
+const name=document.getElementById("name").value,phone=document.getElementById("phone").value,email=document.getElementById("email").value,service=document.getElementById("service").value,details=document.getElementById("details").value;
+const subject="Website enquiry - "+service;
+const body=`New enquiry from JB Carpentry & Building website
+
+Name: ${name}
+Phone: ${phone}
+Email: ${email}
+Work required: ${service}
+
+Project details:
+${details}`;
+window.location.href="mailto:jbcarpentry@mail.co.uk?subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body);
+}
+</script>
+</body>
+</html>
